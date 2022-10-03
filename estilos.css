@@ -1,0 +1,58 @@
+*{
+    border: 0;
+    margin: 0;
+    padding:0,
+}
+
+#fondo{
+    background-color: #eeebeb;
+}
+
+section{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: top;
+    width: 40%;
+}
+
+#lienzo{
+    border: 2px solid steelblue;
+    width: 500px;
+    height: 300px;
+    background: #ffc7ff;
+}
+
+input[type="text"]{
+    background-color: #ffc7ff;
+    border: 1px solid gray;
+    font-size: 1.7rem; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="button"]{
+    background-color: steelblue;
+    color: white;
+    font-size: 1.7rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(7, 78, 136);
+    text-decoration: underline;
+}
+
+div{
+    font-size: 1.7rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+}
+
+div#frase{
+    border: 1.8px solid steelblue;
+    padding: 0.4rem;
+    text-align: center;
+    border-radius: 10px;
+}
